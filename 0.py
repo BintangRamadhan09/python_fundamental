@@ -15,6 +15,7 @@
 # => git merged ( nama branch) = menggabungkan antar branch -> command harus dari master
 # => git checkout -b (nama branch baru) = bikin branch baru sekaligus masuk ke branch itu
 # => git clone (link di github) = mendownload project yang ada di git hub
+# => git remote add = masuk ke project yang ada di github
 class X :
     def __init__(self):
         self.nama = 'andi'
