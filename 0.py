@@ -8,7 +8,13 @@
 # => git checkout master = kembali(ngecek yang lalu)
 # => git reset (id commit) = balikin lagi sebelum commit
 # => git reset (id commit) --hard = balikin ke bener2 awal
-
+# => git branch (nama branch) = cara membuat branch
+# => git branch  -a = mengecek ada branch apa aja
+# => git branch -D (nama branch nya) = untuk menghapus branch yang dimaksud
+# => git branch checkout (nama branch) = untuk masuk ke branch nya
+# => git merged ( nama branch) = menggabungkan antar branch -> command harus dari master
+# => git checkout -b (nama branch baru) = bikin branch baru sekaligus masuk ke branch itu
+# => git clone (link di github) = mendownload project yang ada di git hub
 class X :
     def __init__(self):
         self.nama = 'andi'
